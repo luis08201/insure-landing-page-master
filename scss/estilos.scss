@@ -205,7 +205,7 @@ body {
       height: 250px;
       z-index: 5;
       position: absolute;
-      bottom: 283px;
+      bottom: 300px;
     }
     .banner__wave--right {
       width: 360px;
@@ -220,20 +220,31 @@ body {
       bottom: -200px;
     }
   }
+ 
 }
 @media screen and (max-width: 425px) {
   .main__banner {
     .banner__wave--left {
       background-image: url(../img/bg-pattern-intro-left-mobile.svg);
-      bottom: 289px;
+      bottom: 300px;
+    }
+  }
+  .submain__banner {
+  .banner__picture {
+    top: 250px;
+    z-index:5;
+    .banner__img {
+      width: 80%;
     }
   }
 }
+}
 @media screen and (max-width: 375px) {
   .main__banner {
+    
     .banner__wave--left {
       background-image: url(../img/bg-pattern-intro-left-mobile.svg);
-      bottom: 310px;
+      bottom: 400px;
     }
   }
 }
@@ -241,7 +252,7 @@ body {
   .main__banner {
     .banner__wave--left {
       background-image: url(../img/bg-pattern-intro-left-mobile.svg);
-      bottom: 323px;
+      bottom: 383px;
     }
   }
 }
@@ -255,8 +266,9 @@ body {
   height: 406px;
   .banner__picture {
     position: absolute;
-    top: 40px;
     right: 0;
+    top: 20px;
+    z-index:5;
     .banner__img {
       width: 80%;
     }
@@ -469,7 +481,7 @@ body {
   align-items: center;
   padding: 70px 100px;
   position: relative;
-  overflow-y: hidden;
+  overflow: hidden;
   .ad__wave {
     background-image: url(../img/bg-pattern-how-we-work-desktop.svg);
     background-size: contain;
