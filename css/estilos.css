@@ -252,7 +252,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .main__banner {
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .main__banner .banner__wave--left {
     background-image: url(../img/bg-pattern-intro-left-mobile.svg);
@@ -547,6 +547,7 @@ body {
 
 .main__ad {
   padding: 0.1px;
+  margin-bottom: 60px;
 }
 
 .submain__ad {
